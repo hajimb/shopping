@@ -7,12 +7,12 @@
                     <div class="footer-column pull-left">
                         <h4>My Account</h4>
                         <ul class="links">
-                            <li class="first"><a title="Login" href="login.html">Login</a> </li>
-                            <li><a title="About us" href="about_us.html">About us</a> </li>
-                            <li><a title="Wishlist" href="wishlist.html">Wishlist</a> </li>
-                            <li><a title="Checkout" href="checkout.html">Checkout</a> </li>
-                            <li><a title="FAQs" href="faq.html">FAQs</a> </li>
-                            <li class="last"><a title="Contact Us" href="contact_us.html">Contact Us</a> </li>
+                            <li class="first"><a title="Login" href="{{route('login')}}">Login</a> </li>
+                            <li><a title="About us" href="{{route('aboutus')}}">About us</a> </li>
+                            <li><a title="Wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                            <li><a title="Checkout" href="{{route('checkout')}}">Checkout</a> </li>
+                            <li><a title="FAQs" href="{{route('faq')}}">FAQs</a> </li>
+                            <li class="last"><a title="Contact Us" href="{{route('contactus')}}">Contact Us</a> </li>
                         </ul>
                     </div>
                     <div class="footer-column pull-left">
@@ -30,7 +30,7 @@
                     <div class="footer-column pull-left">
                         <h4>Information</h4>
                         <ul class="links">
-                            <li class="first"><a href="sitemap.html" title="Site Map">Site Map</a> </li>
+                            <li class="first"><a href="{{route('sitemap')}}" title="Site Map">Site Map</a> </li>
                             <li><a href="#" title="Search Terms">Search Terms</a> </li>
                             <li><a href="#" title="Advanced Search">Advanced Search</a> </li>
                             <li><a href="#" title="Privacy Policy">Privacy Policy</a> </li>
@@ -81,7 +81,7 @@
     <div class="footer-middle">
         <div class="container">
             <div class="row">
-                <div class="text-center"> <a href="index.html"><img src="{{asset('assets/frontend')}}/images/footer-logo.png" alt="logo"> </a>
+                <div class="text-center"> <a href="{{route('home')}}"><img src="{{asset('assets/frontend')}}/images/footer-logo.png" alt="logo"> </a>
                 </div>
                 <address>
                     <i class="fa fa-map-marker"></i> 123 Main Street, Anytown, CA 12345 USA <i

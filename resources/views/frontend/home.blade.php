@@ -81,9 +81,9 @@
                                         <div class="hot-label hot-top-left">Hot</div>
                                         <div class="box-hover">
                                             <ul class="add-to-links">
-                                                <li><a class="link-quickview" href="quick_view.html">Quick View</a> </li>
-                                                <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a> </li>
+                                                <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                             </ul>
                                         </div>
                                         <div class="box-timer">
@@ -94,7 +94,7 @@
                                 <div class="item-info">
                                     <div class="info-inner">
                                         <div class="item-title">
-                                            <h4><a href="product_detail.html" title="Retis lapen casen"> Retis lapen casen
+                                            <h4><a href="{{route('product.details')}}" title="Retis lapen casen"> Retis lapen casen
                                                 </a></h4>
                                         </div>
                                         <div class="item-content">
@@ -166,17 +166,17 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -185,7 +185,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -220,17 +220,17 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -239,7 +239,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -274,17 +274,17 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -293,7 +293,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -328,18 +328,18 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="new-label new-top-left">new</div>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -348,7 +348,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -395,17 +395,17 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -414,7 +414,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -449,17 +449,17 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -468,7 +468,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -503,17 +503,17 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -522,7 +522,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -557,18 +557,18 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="new-label new-top-left">new</div>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -577,7 +577,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -623,17 +623,17 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -642,7 +642,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -677,17 +677,17 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -696,7 +696,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -731,17 +731,17 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -750,7 +750,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -785,18 +785,18 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="new-label new-top-left">new</div>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -805,7 +805,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -851,17 +851,17 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -870,7 +870,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -905,17 +905,17 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -924,7 +924,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -959,17 +959,17 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -978,7 +978,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -1013,18 +1013,18 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="new-label new-top-left">new</div>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -1033,7 +1033,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -1079,17 +1079,17 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -1098,7 +1098,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -1133,17 +1133,17 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -1152,7 +1152,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -1187,17 +1187,17 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -1206,7 +1206,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -1241,18 +1241,18 @@
                                                 <div class="item-inner">
                                                     <div class="item-img">
                                                         <div class="item-img-info"> <a class="product-image"
-                                                                title="Retis lapen casen" href="product_detail.html"> <img
+                                                                title="Retis lapen casen" href="{{route('product.details')}}"> <img
                                                                     alt="Retis lapen casen"
                                                                     src="http://via.placeholder.com/700x850"> </a>
                                                             <div class="new-label new-top-left">new</div>
                                                             <div class="box-hover">
                                                                 <ul class="add-to-links">
                                                                     <li><a class="link-quickview"
-                                                                            href="quick_view.html">Quick View</a> </li>
+                                                                            href="{{route('quick.view')}}">Quick View</a> </li>
                                                                     <li><a class="link-wishlist"
-                                                                            href="wishlist.html">Wishlist</a> </li>
+                                                                            href="{{route('users.whishlist')}}">Wishlist</a> </li>
                                                                     <li><a class="link-compare"
-                                                                            href="compare.html">Compare</a> </li>
+                                                                            href="{{route('compare')}}">Compare</a> </li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -1261,7 +1261,7 @@
                                                         <div class="info-inner">
                                                             <div class="item-title">
                                                                 <h4><a title="Retis lapen casen"
-                                                                        href="product_detail.html"> Retis lapen casen </a>
+                                                                        href="{{route('product.details')}}"> Retis lapen casen </a>
                                                                 </h4>
                                                             </div>
                                                             <div class="item-content">
@@ -1322,22 +1322,22 @@
                             </div>
                             <div class="pretext">Lorem Ipsum is simply dummy text of the printing and typesetting
                                 industry. Curabitur eu odio non justo euismod congue ut nec orci. </div>
-                            <a href="grid.html" class="view_more_bnt">View All</a>
+                            <a href="{{route('grid')}}" class="view_more_bnt">View All</a>
                         </div>
                         <div class="slider-items slider-width-col4 products-grid block-content">
                             <div class="item">
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="new-label new-top-right">new</div>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1345,7 +1345,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="rating">
@@ -1379,14 +1379,14 @@
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1394,7 +1394,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="item-content">
@@ -1429,14 +1429,14 @@
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1444,7 +1444,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="item-content">
@@ -1478,15 +1478,15 @@
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="new-label new-top-left">new</div>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1494,7 +1494,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="item-content">
@@ -1528,14 +1528,14 @@
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1543,7 +1543,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="item-content">
@@ -1576,14 +1576,14 @@
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1591,7 +1591,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="item-content">
@@ -1624,14 +1624,14 @@
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1639,7 +1639,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="item-content">
@@ -1691,22 +1691,22 @@
                             </div>
                             <div class="pretext">Lorem Ipsum is simply dummy text of the printing and typesetting
                                 industry. Curabitur eu odio non justo euismod congue ut nec orci.</div>
-                            <a href="grid.html" class="view_more_bnt">View All</a>
+                            <a href="{{route('grid')}}" class="view_more_bnt">View All</a>
                         </div>
                         <div class="slider-items slider-width-col4 products-grid block-content">
                             <div class="item">
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="new-label new-top-right">new</div>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1714,7 +1714,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="rating">
@@ -1748,14 +1748,14 @@
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1763,7 +1763,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="item-content">
@@ -1798,14 +1798,14 @@
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1813,7 +1813,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="item-content">
@@ -1847,15 +1847,15 @@
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="new-label new-top-left">new</div>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1863,7 +1863,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="item-content">
@@ -1897,14 +1897,14 @@
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1912,7 +1912,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="item-content">
@@ -1945,14 +1945,14 @@
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1960,7 +1960,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="item-content">
@@ -1993,14 +1993,14 @@
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2008,7 +2008,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="item-content">
@@ -2060,22 +2060,22 @@
                             </div>
                             <div class="pretext">Lorem Ipsum is simply dummy text of the printing and typesetting
                                 industry. Curabitur eu odio non justo euismod congue ut nec orci.</div>
-                            <a href="grid.html" class="view_more_bnt">View All</a>
+                            <a href="{{route('grid')}}" class="view_more_bnt">View All</a>
                         </div>
                         <div class="slider-items slider-width-col4 products-grid block-content">
                             <div class="item">
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="new-label new-top-right">new</div>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2083,7 +2083,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="rating">
@@ -2117,14 +2117,14 @@
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2132,7 +2132,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="item-content">
@@ -2167,14 +2167,14 @@
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2182,7 +2182,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="item-content">
@@ -2216,15 +2216,15 @@
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="new-label new-top-left">new</div>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2232,7 +2232,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="item-content">
@@ -2266,14 +2266,14 @@
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2281,7 +2281,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="item-content">
@@ -2314,14 +2314,14 @@
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2329,7 +2329,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="item-content">
@@ -2362,14 +2362,14 @@
                                 <div class="item-inner">
                                     <div class="item-img">
                                         <div class="item-img-info"> <a class="product-image" title="Retis lapen casen"
-                                                href="product_detail.html"> <img alt="Retis lapen casen"
+                                                href="{{route('product.details')}}"> <img alt="Retis lapen casen"
                                                     src="http://via.placeholder.com/700x850"> </a>
                                             <div class="box-hover">
                                                 <ul class="add-to-links">
-                                                    <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                    <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                     </li>
-                                                    <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                    <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                    <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                    <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2377,7 +2377,7 @@
                                     <div class="item-info">
                                         <div class="info-inner">
                                             <div class="item-title">
-                                                <h4><a title="Retis lapen casen" href="product_detail.html"> Retis lapen
+                                                <h4><a title="Retis lapen casen" href="{{route('product.details')}}"> Retis lapen
                                                         casen </a></h4>
                                             </div>
                                             <div class="item-content">
@@ -2479,7 +2479,7 @@
                     </div>
                     <div class="blog-inner">
                         <div class="col-lg-6 col-md-6 col-sm-6 blog-preview_item">
-                            <div class="entry-thumb image-hover2"> <a href="blog_single_post.html"> <img
+                            <div class="entry-thumb image-hover2"> <a href="{{route('blog.single)}}"> <img
                                         alt="Blog" src="http://via.placeholder.com/1140x450"> </a> </div>
                             <div class="blog-preview_info">
                                 <ul class="post-meta">
@@ -2487,16 +2487,16 @@
                                     <li><i class="fa fa-comments"></i><a href="#">8 comments</a> </li>
                                     <li><i class="fa fa-calendar"></i>2018-01-15 08:55:22</li>
                                 </ul>
-                                <h4 class="blog-preview_title"><a href="blog_single_post.html">Standard blog post with
+                                <h4 class="blog-preview_title"><a href="{{route('blog.single)}}">Standard blog post with
                                         photo</a></h4>
                                 <div class="blog-preview_desc">Lid est laborum dolo rumes fugats untras. Etharums ser
                                     quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips.
                                 </div>
-                                <a class="blog-preview_btn" href="blog_single_post.html">READ MORE</a>
+                                <a class="blog-preview_btn" href="{{route('blog.single)}}">READ MORE</a>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 blog-preview_item">
-                            <div class="entry-thumb image-hover2"> <a href="blog_single_post.html"> <img
+                            <div class="entry-thumb image-hover2"> <a href="{{route('blog.single)}}"> <img
                                         alt="Blog" src="http://via.placeholder.com/1140x450"> </a> </div>
                             <div class="blog-preview_info">
                                 <ul class="post-meta">
@@ -2504,12 +2504,12 @@
                                     <li><i class="fa fa-comments"></i><a href="#">4 comments</a> </li>
                                     <li><i class="fa fa-calendar"></i>2018-01-05 07:01:49</li>
                                 </ul>
-                                <h4 class="blog-preview_title"><a href="blog_single_post.html">Standard blog post with
+                                <h4 class="blog-preview_title"><a href="{{route('blog.single)}}">Standard blog post with
                                         photo</a></h4>
                                 <div class="blog-preview_desc">Ut tellus dolor, dapibus eget, elementum vel, cursus
                                     eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec
                                     sit amet eros.</div>
-                                <a class="blog-preview_btn" href="blog_single_post.html">READ MORE</a>
+                                <a class="blog-preview_btn" href="{{route('blog.single)}}">READ MORE</a>
                             </div>
                         </div>
                     </div>

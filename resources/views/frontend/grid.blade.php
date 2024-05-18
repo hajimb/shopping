@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-xs-12">
                     <ul>
-                        <li class="home"> <a href="index.html" title="Go to Home Page">Home</a> <span>/</span> </li>
+                        <li class="home"> <a href="{{route('home')}}" title="Go to Home Page">Home</a> <span>/</span> </li>
                         <li class="category1599"> <a href="{{route('grid')}}" title="">Women</a> <span>/ </span> </li>
                         <li class="category1600"> <a href="{{route('grid')}}" title="">Styliest Bag</a> <span>/</span> </li>
                         <li class="category1601"> <strong>Clutch Handbags</strong> </li>
@@ -74,7 +74,7 @@
                             </div>
                             <div class="sorter">
                                 <div class="view-mode"> <span title="Grid"
-                                        class="button button-active button-grid">&nbsp;</span><a href="list.html"
+                                        class="button button-active button-grid">&nbsp;</span><a href="{{route('list)}}"
                                         title="List" class="button-list">&nbsp;</a> </div>
                             </div>
                         </div>
@@ -89,10 +89,10 @@
                                                 <div class="new-label new-top-left">New</div>
                                                 <div class="box-hover">
                                                     <ul class="add-to-links">
-                                                        <li><a class="link-quickview" href="quick_view.html">Quick View</a>
+                                                        <li><a class="link-quickview" href="{{route('quick.view')}}">Quick View</a>
                                                         </li>
-                                                        <li><a class="link-wishlist" href="wishlist.html">Wishlist</a> </li>
-                                                        <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                        <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
+                                                        <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -140,11 +140,11 @@
                                                         alt="Retis lapen casen"></a>
                                                 <div class="box-hover">
                                                     <ul class="add-to-links">
-                                                        <li><a class="link-quickview" href="quick_view.html">Quick
+                                                        <li><a class="link-quickview" href="{{route('quick.view')}}">Quick
                                                                 View</a> </li>
-                                                        <li><a class="link-wishlist" href="wishlist.html">Wishlist</a>
+                                                        <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a>
                                                         </li>
-                                                        <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                        <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -188,11 +188,11 @@
                                                         alt="Retis lapen casen"></a>
                                                 <div class="box-hover">
                                                     <ul class="add-to-links">
-                                                        <li><a class="link-quickview" href="quick_view.html">Quick
+                                                        <li><a class="link-quickview" href="{{route('quick.view')}}">Quick
                                                                 View</a> </li>
-                                                        <li><a class="link-wishlist" href="wishlist.html">Wishlist</a>
+                                                        <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a>
                                                         </li>
-                                                        <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                        <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -237,11 +237,11 @@
                                                 <div class="new-label new-top-left">New</div>
                                                 <div class="box-hover">
                                                     <ul class="add-to-links">
-                                                        <li><a class="link-quickview" href="quick_view.html">Quick
+                                                        <li><a class="link-quickview" href="{{route('quick.view')}}">Quick
                                                                 View</a> </li>
-                                                        <li><a class="link-wishlist" href="wishlist.html">Wishlist</a>
+                                                        <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a>
                                                         </li>
-                                                        <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                        <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -289,11 +289,11 @@
                                                         alt="Retis lapen casen"></a>
                                                 <div class="box-hover">
                                                     <ul class="add-to-links">
-                                                        <li><a class="link-quickview" href="quick_view.html">Quick
+                                                        <li><a class="link-quickview" href="{{route('quick.view')}}">Quick
                                                                 View</a> </li>
-                                                        <li><a class="link-wishlist" href="wishlist.html">Wishlist</a>
+                                                        <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a>
                                                         </li>
-                                                        <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                        <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -337,11 +337,11 @@
                                                         alt="Retis lapen casen"></a>
                                                 <div class="box-hover">
                                                     <ul class="add-to-links">
-                                                        <li><a class="link-quickview" href="quick_view.html">Quick
+                                                        <li><a class="link-quickview" href="{{route('quick.view')}}">Quick
                                                                 View</a> </li>
-                                                        <li><a class="link-wishlist" href="wishlist.html">Wishlist</a>
+                                                        <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a>
                                                         </li>
-                                                        <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                        <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -386,11 +386,11 @@
                                                 <div class="new-label new-top-left">New</div>
                                                 <div class="box-hover">
                                                     <ul class="add-to-links">
-                                                        <li><a class="link-quickview" href="quick_view.html">Quick
+                                                        <li><a class="link-quickview" href="{{route('quick.view')}}">Quick
                                                                 View</a> </li>
-                                                        <li><a class="link-wishlist" href="wishlist.html">Wishlist</a>
+                                                        <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a>
                                                         </li>
-                                                        <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                        <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -438,11 +438,11 @@
                                                         alt="Retis lapen casen"></a>
                                                 <div class="box-hover">
                                                     <ul class="add-to-links">
-                                                        <li><a class="link-quickview" href="quick_view.html">Quick
+                                                        <li><a class="link-quickview" href="{{route('quick.view')}}">Quick
                                                                 View</a> </li>
-                                                        <li><a class="link-wishlist" href="wishlist.html">Wishlist</a>
+                                                        <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a>
                                                         </li>
-                                                        <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                        <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -486,11 +486,11 @@
                                                         alt="Retis lapen casen"></a>
                                                 <div class="box-hover">
                                                     <ul class="add-to-links">
-                                                        <li><a class="link-quickview" href="quick_view.html">Quick
+                                                        <li><a class="link-quickview" href="{{route('quick.view')}}">Quick
                                                                 View</a> </li>
-                                                        <li><a class="link-wishlist" href="wishlist.html">Wishlist</a>
+                                                        <li><a class="link-wishlist" href="{{route('users.whishlist')}}">Wishlist</a>
                                                         </li>
-                                                        <li><a class="link-compare" href="compare.html">Compare</a> </li>
+                                                        <li><a class="link-compare" href="{{route('compare')}}">Compare</a> </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -849,7 +849,7 @@
                             </div>
                             <div class="block-content">
                                 <div class="summary">
-                                    <p class="amount">There are <a href="shopping_cart.html">2 items</a> in your cart.</p>
+                                    <p class="amount">There are <a href="{{route('shopping.cart')}}">2 items</a> in your cart.</p>
                                     <p class="subtotal"> <span class="label">Cart Subtotal:</span> <span
                                             class="price">$27.99</span> </p>
                                 </div>
@@ -859,26 +859,26 @@
                                 </div>
                                 <p class="block-subtitle">Recently added item(s) </p>
                                 <ul>
-                                    <li class="item"> <a href="shopping_cart.html" title="Fisher-Price Bubble Mower"
+                                    <li class="item"> <a href="{{route('shopping.cart')}}" title="Fisher-Price Bubble Mower"
                                             class="product-image"><img src="http://via.placeholder.com/700x850"
                                                 alt="Fisher-Price Bubble Mower"></a>
                                         <div class="product-details">
-                                            <div class="access"> <a href="shopping_cart.html" title="Remove This Item"
+                                            <div class="access"> <a href="{{route('shopping.cart')}}" title="Remove This Item"
                                                     class="btn-remove1"> <span class="icon"></span> Remove </a> </div>
                                             <strong>1</strong> x <span class="price">$19.99</span>
-                                            <p class="product-name"> <a href="shopping_cart.html">Skater Dress In Leaf
+                                            <p class="product-name"> <a href="{{route('shopping.cart')}}">Skater Dress In Leaf
                                                     Print Grouped Product</a> </p>
                                         </div>
                                     </li>
-                                    <li class="item last"> <a href="shopping_cart.html"
+                                    <li class="item last"> <a href="{{route('shopping.cart')}}"
                                             title="Prince Lionheart Jumbo Toy Hammock" class="product-image"><img
                                                 src="http://via.placeholder.com/700x850"
                                                 alt="Prince Lionheart Jumbo Toy Hammock"></a>
                                         <div class="product-details">
-                                            <div class="access"> <a href="shopping_cart.html" title="Remove This Item"
+                                            <div class="access"> <a href="{{route('shopping.cart')}}" title="Remove This Item"
                                                     class="btn-remove1"> <span class="icon"></span> Remove </a> </div>
                                             <strong>1</strong> x <span class="price">$8.00</span>
-                                            <p class="product-name"> <a href="shopping_cart.html"> Sample Fashion Product
+                                            <p class="product-name"> <a href="{{route('shopping.cart')}}"> Sample Fashion Product
                                                     Prince Lionheart </a> </p>
 
                                             <!--access clearfix-->

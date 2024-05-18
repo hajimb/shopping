@@ -13,12 +13,12 @@
                 </form>
             </div>
         </li>
-        <li><a href="index.html">Home</a>
+        <li><a href="{{route('home')}}">Home</a>
             <ul>
-                <li class="level1"><a href="../flower/index.html"><span>Flower Store</span></a> </li>
-                <li class="level1"><a href="index.html"><span>Digital Store</span></a> </li>
-                <li class="level1"><a href="../furniture/index.html"><span>Furniture Store</span></a> </li>
-                <li class="level1"><a href="../jewellery/index.html"><span>Jewellery Store</span></a> </li>
+                <li class="level1"><a href="../flower/{{route('home')}}"><span>Flower Store</span></a> </li>
+                <li class="level1"><a href="{{route('home')}}"><span>Digital Store</span></a> </li>
+                <li class="level1"><a href="../furniture/{{route('home')}}"><span>Furniture Store</span></a> </li>
+                <li class="level1"><a href="../jewellery/{{route('home')}}"><span>Jewellery Store</span></a> </li>
             </ul>
         </li>
         <li><a href="#">Pages</a>
@@ -26,19 +26,19 @@
                 <li><a href="{{route('grid')}}">Grid</a> </li>
                 <li> <a href="{{route('list')}}">List</a> </li>
                 <li> <a href="{{route('product.details')}}">Product Detail</a> </li>
-                <li> <a href="shopping_cart.html">Shopping Cart</a> </li>
-                <li><a href="checkout.html">Checkout</a> </li>
+                <li> <a href="{{route('shopping.cart')}}">Shopping Cart</a> </li>
+                <li><a href="{{route('checkout')}}">Checkout</a> </li>
                 <li> <a href="{{route('users.whishlist')}}">Wishlist</a> </li>
-                <li> <a href="dashboard.html">Dashboard</a> </li>
-                <li> <a href="multiple_addresses.html">Multiple Addresses</a> </li>
-                <li> <a href="about_us.html">About us</a> </li>
-                <li><a href="blog.html">Blog</a>
+                <li> <a href="{{route('users.dashboard')}}">Dashboard</a> </li>
+                <li> <a href="{{route('users.addresses')}}">Multiple Addresses</a> </li>
+                <li> <a href="{{route('aboutus')}}">About us</a> </li>
+                <li><a href="{{route('blog')}}">Blog</a>
                     <ul>
-                        <li><a href="blog-detail.html">Blog Detail</a> </li>
+                        <li><a href="{{route('blog.single')}}">Blog Detail</a> </li>
                     </ul>
                 </li>
-                <li><a href="contact_us.html">Contact us</a> </li>
-                <li><a href="404error.html">404 Error Page</a> </li>
+                <li><a href="{{route('contactus')}}">Contact us</a> </li>
+                <li><a href="{{route('404')}}">404 Error Page</a> </li>
             </ul>
         </li>
         <li><a href="#">Women</a>
@@ -119,7 +119,7 @@
                         <li class="level2"><a href="{{route('grid')}}">Blazers</a> </li>
                     </ul>
                 </li>
-                <li> <a href="#.html">Watches</a>
+                <li> <a href="{{route('grid')}}">Watches</a>
                     <ul class="level1">
                         <li class="level2"><a href="{{route('grid')}}">Fasttrack</a> </li>
                         <li class="level2"><a href="{{route('grid')}}">Casio</a> </li>
@@ -234,14 +234,14 @@
             </ul>
         </li>
         <li><a href="{{route('grid')}}">Kids</a> </li>
-        <li><a href="contact-us.html">Contact Us</a> </li>
+        <li><a href="{{route('contactus')}}">Contact Us</a> </li>
     </ul>
     <div class="top-links">
         <ul class="links">
             <li><a title="My Account" href="{{route('login')}}">My Account</a> </li>
             <li><a title="Wishlist" href="{{route('users.whishlist')}}">Wishlist</a> </li>
-            <li><a title="Checkout" href="checkout.html">Checkout</a> </li>
-            <li><a title="Blog" href="blog.html"><span>Blog</span></a> </li>
+            <li><a title="Checkout" href="{{route('checkout')}}">Checkout</a> </li>
+            <li><a title="Blog" href="{{route('blog')}}"><span>Blog</span></a> </li>
             <li class="last"><a title="Login" href="{{route('login')}}"><span>Login</span></a> </li>
         </ul>
     </div>

@@ -65,14 +65,14 @@
           </div>
           <div class="col-lg-6 col-md-4 col-sm-4 col-xs-12 logo-block">
             <!-- Header Logo -->
-            <div class="logo"> <a title="Magento Commerce" href="index.html"><img alt="Magento Commerce" src="{{asset('assets/frontend')}}/images/logo.png"> </a> </div>
+            <div class="logo"> <a title="Magento Commerce" href="{{route('home')}}"><img alt="Magento Commerce" src="{{asset('assets/frontend')}}/images/logo.png"> </a> </div>
             <!-- End Header Logo -->
           </div>
           <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
             <div class="top-cart-contain pull-right">
               <!-- Top Cart -->
               <div class="mini-cart">
-                <div data-toggle="dropdown" data-hover="dropdown" class="basket dropdown-toggle"> <a href="shopping_cart.html"> <span class="cart_count">2</span><span class="price">My Cart / $259.00</span> </a> </div>
+                <div data-toggle="dropdown" data-hover="dropdown" class="basket dropdown-toggle"> <a href="{{route('shopping.cart')}}"> <span class="cart_count">2</span><span class="price">My Cart / $259.00</span> </a> </div>
                 <div>
                   <div class="top-cart-content">
 
@@ -88,7 +88,7 @@
                         </div>
                       </li>
                       <li class="item last">
-                        <div class="item-inner"> <a class="product-image" title="Retis lapen casen" href="product_detail.html"><img alt="Retis lapen casen" src="http://via.placeholder.com/700x850"> </a>
+                        <div class="item-inner"> <a class="product-image" title="Retis lapen casen" href="{{route('product.details')}}"><img alt="Retis lapen casen" src="http://via.placeholder.com/700x850"> </a>
                           <div class="product-details">
                             <div class="access"><a class="btn-remove1" title="Remove This Item" href="#">Remove</a> <a class="btn-edit" title="Edit item" href="#"><i class="icon-pencil"></i><span class="hidden">Edit item</span></a> </div>
                             <!--access--><strong>1</strong> x <span class="price">$80.00</span>
@@ -101,7 +101,7 @@
                     <!--actions-->
                     <div class="actions">
                       <button class="btn-checkout" title="Checkout" type="button"><span>Checkout</span> </button>
-                      <a href="shopping_cart.html" class="view-cart"><span>View Cart</span></a> </div>
+                      <a href="{{route('shopping.cart')}}" class="view-cart"><span>View Cart</span></a> </div>
                   </div>
                 </div>
               </div>

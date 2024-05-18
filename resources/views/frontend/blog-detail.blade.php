@@ -211,7 +211,7 @@
                             <div class="widget-content">
                                 <ul class="posts-list unstyled clearfix">
                                     <li>
-                                        <figure class="featured-thumb"> <a href="blog_single_post.html"> <img
+                                        <figure class="featured-thumb"> <a href="{{route('blog.single)}}"> <img
                                                     width="80" height="53" alt="blog image"
                                                     src="http://via.placeholder.com/1140x450"> </a> </figure>
                                         <!--featured-thumb-->
@@ -224,7 +224,7 @@
                                         </p>
                                     </li>
                                     <li>
-                                        <figure class="featured-thumb"> <a href="blog_single_post.html"> <img
+                                        <figure class="featured-thumb"> <a href="{{route('blog.single)}}"> <img
                                                     width="80" height="53" alt="blog image"
                                                     src="http://via.placeholder.com/1140x450"> </a> </figure>
                                         <!--featured-thumb-->
@@ -237,7 +237,7 @@
                                         </p>
                                     </li>
                                     <li>
-                                        <figure class="featured-thumb"> <a href="blog_single_post.html"> <img
+                                        <figure class="featured-thumb"> <a href="{{route('blog.single)}}"> <img
                                                     width="80" height="53" alt="blog image"
                                                     src="http://via.placeholder.com/1140x450"> </a> </figure>
                                         <!--featured-thumb-->
@@ -250,7 +250,7 @@
                                         </p>
                                     </li>
                                     <li>
-                                        <figure class="featured-thumb"> <a href="blog_single_post.html"> <img
+                                        <figure class="featured-thumb"> <a href="{{route('blog.single)}}"> <img
                                                     width="80" height="53" alt="blog image"
                                                     src="http://via.placeholder.com/1140x450"> </a> </figure>
                                         <!--featured-thumb-->

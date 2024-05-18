@@ -13,15 +13,15 @@
               <li class="level2 first"><a href="{{route('grid')}}"><span>Grid</span></a> </li>
               <li class="level2 nav-10-2"> <a href="{{route('list')}}"> <span>List</span> </a> </li>
               <li class="level2 nav-10-3"> <a href="{{route('product.details')}}"> <span>Product Detail</span> </a> </li>
-              <li class="level2 nav-10-4"> <a href="shopping_cart.html"> <span>Shopping Cart</span> </a> </li>
-              <li class="level2 parent"><a href="checkout.html"><span>Checkout</span></a> </li>
+              <li class="level2 nav-10-4"> <a href="{{route('shopping.cart')}}"> <span>Shopping Cart</span> </a> </li>
+              <li class="level2 parent"><a href="{{route('checkout')}}"><span>Checkout</span></a> </li>
               <li class="level1 nav-10-4"> <a href="{{route('users.whishlist')}}"> <span>Wishlist</span> </a> </li>
-              <li class="level1"> <a href="dashboard.html"> <span>Dashboard</span> </a> </li>
-              <li class="level1"> <a href="multiple_addresses.html"> <span>Multiple Addresses</span> </a> </li>
-              <li class="level1"><a href="compare.html"><span>Compare</span></a> </li>
-              <li class="level1"><a href="quick_view.html"><span>Quick View</span></a> </li>
-              <li class="level1"><a href="newsletter.html"><span>Newsletter</span></a> </li>
-              <li class="level1"><a href="404error.html"><span>404 Error Page</span></a> </li>
+              <li class="level1"> <a href="{{route('users.dashboard')}}"> <span>Dashboard</span> </a> </li>
+              <li class="level1"> <a href="{{route('users.addresses')}}"> <span>Multiple Addresses</span> </a> </li>
+              <li class="level1"><a href="{{route('compare')}}"><span>Compare</span></a> </li>
+              <li class="level1"><a href="{{route('quick.view')}}"><span>Quick View</span></a> </li>
+              <li class="level1"><a href="{{route('newsletter')}}"><span>Newsletter</span></a> </li>
+              <li class="level1"><a href="{{route('404')}}"><span>404 Error Page</span></a> </li>
             </ul>
           </li>
           <li class="mega-menu"> <a class="level-top" href="{{route('grid')}}"><span>Women</span></a>
