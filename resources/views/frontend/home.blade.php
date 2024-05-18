@@ -2479,7 +2479,7 @@
                     </div>
                     <div class="blog-inner">
                         <div class="col-lg-6 col-md-6 col-sm-6 blog-preview_item">
-                            <div class="entry-thumb image-hover2"> <a href="{{route('blog.single)}}"> <img
+                            <div class="entry-thumb image-hover2"> <a href="{{route('blog.single')}}"> <img
                                         alt="Blog" src="http://via.placeholder.com/1140x450"> </a> </div>
                             <div class="blog-preview_info">
                                 <ul class="post-meta">
@@ -2487,16 +2487,16 @@
                                     <li><i class="fa fa-comments"></i><a href="#">8 comments</a> </li>
                                     <li><i class="fa fa-calendar"></i>2018-01-15 08:55:22</li>
                                 </ul>
-                                <h4 class="blog-preview_title"><a href="{{route('blog.single)}}">Standard blog post with
+                                <h4 class="blog-preview_title"><a href="{{route('blog.single')}}">Standard blog post with
                                         photo</a></h4>
                                 <div class="blog-preview_desc">Lid est laborum dolo rumes fugats untras. Etharums ser
                                     quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips.
                                 </div>
-                                <a class="blog-preview_btn" href="{{route('blog.single)}}">READ MORE</a>
+                                <a class="blog-preview_btn" href="{{route('blog.single')}}">READ MORE</a>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 blog-preview_item">
-                            <div class="entry-thumb image-hover2"> <a href="{{route('blog.single)}}"> <img
+                            <div class="entry-thumb image-hover2"> <a href="{{route('blog.single')}}"> <img
                                         alt="Blog" src="http://via.placeholder.com/1140x450"> </a> </div>
                             <div class="blog-preview_info">
                                 <ul class="post-meta">
@@ -2504,12 +2504,12 @@
                                     <li><i class="fa fa-comments"></i><a href="#">4 comments</a> </li>
                                     <li><i class="fa fa-calendar"></i>2018-01-05 07:01:49</li>
                                 </ul>
-                                <h4 class="blog-preview_title"><a href="{{route('blog.single)}}">Standard blog post with
+                                <h4 class="blog-preview_title"><a href="{{route('blog.single')}}">Standard blog post with
                                         photo</a></h4>
                                 <div class="blog-preview_desc">Ut tellus dolor, dapibus eget, elementum vel, cursus
                                     eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec
                                     sit amet eros.</div>
-                                <a class="blog-preview_btn" href="{{route('blog.single)}}">READ MORE</a>
+                                <a class="blog-preview_btn" href="{{route('blog.single')}}">READ MORE</a>
                             </div>
                         </div>
                     </div>
