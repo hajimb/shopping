@@ -7,12 +7,13 @@ use Illuminate\Http\Request;
 class UsersController extends Controller
 {
     //
-    public function cart(){
+    public function dashboard(){
         $data = array();
         $data['pageTitle'] = 'Users Dashboard';
         $data['bodyclass'] = 'shopping-cart-page';
-        return view('frontend/users-dashboard', $data);
+        return view('frontend/dashboard', $data);
     }
+
     public function addresses(){
         $data = array();
         $data['pageTitle'] = 'Users addresses';

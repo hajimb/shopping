@@ -12,19 +12,20 @@ class HomeController extends Controller
     }
 
     public function about(){
-        return view('frontend/about-us');
+        $data['pageTitle'] = 'About Us';
+        return view('frontend/about-us', $data);
     }
 
     public function contact(){
         $data['pageTitle'] = 'Contact Us';
         $data['bodyclass'] = 'shopping-cart-page';
-        return view('frontend/contact-us');
+        return view('frontend/contact-us', $data);
     }
-    
+
     public function sitemap(){
         $data['pageTitle'] = 'Sitemap';
         $data['bodyclass'] = 'shopping-cart-page';
-        return view('frontend/sitemap');
+        return view('frontend/sitemap', $data);
     }
 
     public function grid(){
@@ -67,10 +68,10 @@ class HomeController extends Controller
         $data['bodyclass'] = 'cms-index-index cms-home-page';
         return view('frontend/newsletter', $data);
     }
-    
+
     public function notfound(){
-        $data['pageTitle'] = 'Newsletter';
-        $data['bodyclass'] = 'cms-index-index cms-home-page';
+        $data['pageTitle'] = 'Page Not Found';
+        $data['bodyclass'] = 'shopping-cart-page';
         return view('frontend/404', $data);
     }
 

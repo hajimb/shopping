@@ -74,7 +74,7 @@
                             </div>
                             <div class="sorter">
                                 <div class="view-mode"> <span title="Grid"
-                                        class="button button-active button-grid">&nbsp;</span><a href="{{route('list)}}"
+                                        class="button button-active button-grid">&nbsp;</span><a href="{{route('list')}}"
                                         title="List" class="button-list">&nbsp;</a> </div>
                             </div>
                         </div>
