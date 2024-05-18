@@ -18,7 +18,8 @@ Route::get('/sitemap', [HomeController::class, 'sitemap'])->name('sitemap');
 Route::get('/grid', [HomeController::class, 'grid'])->name('grid');
 Route::get('/list', [HomeController::class, 'list'])->name('list');
 Route::get('/compare', [HomeController::class, 'compare'])->name('compare');
-Route::get('/quick-view', [HomeController::class, 'quickview'])->name('quick.view');
+Route::get('/quick-view', [HomeController::class, 'quickview'])->name("quick.view");
+
 Route::get('/faq', [HomeController::class, 'faq'])->name('faq');
 Route::get('/newsletter', [HomeController::class, 'newsletter'])->name('newsletter');
 Route::get('/404', [HomeController::class, 'notfound'])->name('404');
@@ -31,9 +32,9 @@ Route::get('/register', [RegisterController::class, 'index'])->name('register');
 Route::get('/checkout', [CheckoutController::class, 'index'])->name('checkout');
 Route::get('/whishlist', [WhishlistController::class, 'index'])->name('users.whishlist');
 Route::get('/product/detail', [ProductController::class, 'detail'])->name('product.details');
-Route::get('/shopping/cart', [ShoppingCartController::class, 'cart'])->name('"shopping.cart"');
-Route::get('/users/dashboard', [UsersController::class, 'dashboard'])->name('{users.dashboard}');
-Route::get('/users/addresses', [UsersController::class, 'addresses'])->name('{""users.addresses""}');
+Route::get('/shopping/cart', [ShoppingCartController::class, 'cart'])->name('shopping.cart');
+Route::get('/users/dashboard', [UsersController::class, 'dashboard'])->name('users.dashboard');
+Route::get('/users/addresses', [UsersController::class, 'addresses'])->name('users.addresses');
 
 
 
